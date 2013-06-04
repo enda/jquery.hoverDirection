@@ -41,11 +41,11 @@
 		    if (handlerIn)
 			handlerIn.apply(this, [direction]);
 		}, function(e) {
-		    if (e.pageX == grid.right)
+		    if (e.pageX => grid.right)
 			direction = "right";
-		    else if (e.pageX == grid.left)
+		    else if (e.pageX <= grid.left)
 			direction = "left";
-		    else if (e.pageY == grid.bottom)
+		    else if (e.pageY >= grid.bottom)
 			direction = "bottom";
 		    else
 			direction = "top";
